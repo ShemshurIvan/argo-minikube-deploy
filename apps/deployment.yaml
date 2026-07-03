@@ -8,7 +8,7 @@ spec:
   source:
     chart: nginx               # The name of the chart
     repoURL: https://charts.bitnami.com/bitnami # The official Helm registry
-    targetRevision: 18.x.x     # Locks the chart version for stability
+    targetRevision: 18.2.1     # Locks the chart version for stability
     helm:
       parameters:
         - name: replicaCount
